@@ -1,0 +1,30 @@
+*{margin: 0; padding: 0;}
+
+section{
+    position: relative;
+    height: 100vh;
+}
+.rgbKineticSlider canvas{
+    position: absolute;
+}
+
+section .rgb{
+    position: absolute;
+    color: #fff;
+    left: 1400px;
+    top: 550px;
+    width: 1200px;
+    height: 700px;
+    text-decoration: none;
+}
+section nav .main-nav{
+    position: absolute;
+    top: 50%;
+    color: #fff ;
+}
+section nav .prev{left:0%;}
+section nav .next{right:0%;}
+
+section nav .main-nav i{
+    font-size: 35px;
+}
